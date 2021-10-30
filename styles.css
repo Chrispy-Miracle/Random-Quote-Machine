@@ -1,0 +1,38 @@
+#wrapper {
+    height: 95vh;
+    background-color: orange;
+    align-content: center;
+  }
+  #quote-box {
+    height: 70vh;  
+    margin-top: 20vh;
+    margin: auto;
+    width: 50vw;
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(blue, green, grey, green);
+  }
+  h1 {
+    color: orangered;
+  }
+  #text-box {
+    border: 5px solid indigo;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px;
+  }
+  #text {
+    font-size: 24px;
+  }
+  #author {
+    margin-left: 150px;
+    color: indigo;
+  }
+  #new-quote {
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 3px 3px;
+  }
