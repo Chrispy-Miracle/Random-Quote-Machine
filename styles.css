@@ -1,38 +1,83 @@
 #wrapper {
-    height: 95vh;
-    background-color: orange;
+    height: 100vh;
+    /* background-color: orange; */
+    background-image: linear-gradient(orange, orangered, orange);
     align-content: center;
+    justify-content: center;
+    margin: auto;
+    
   }
   #quote-box {
-    height: 70vh;  
-    margin-top: 20vh;
+    position: absolute;
+    left: 10vw;
+    right: 10vw;
+    top: 6vh;
+    height: 85vh;
     margin: auto;
-    width: 50vw;
-    border: 3px solid green;
+    width: 65vw;
+    border: 3px solid rgb(18, 66, 18);
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     background-image: linear-gradient(blue, green, grey, green);
   }
   h1 {
     color: orangered;
+    font-size: 4vh;
   }
   #text-box {
-    border: 5px solid indigo;
+    border: 5px solid rgb(99, 4, 99);
     border-radius: 10px;
-    padding: 20px;
+    padding: 1vh;
     box-shadow: 3px 3px;
+    margin-top: 3vh;
+    margin-bottom: .5vh;
+    
   }
   #text {
-    font-size: 24px;
+    font-size: 3vh;
   }
+
   #author {
-    margin-left: 150px;
-    color: indigo;
+    font-size: 3vh;
+    margin-left: 20vw;
+    margin-right: 5vw;
+    color: rgb(52, 3, 87);
   }
   #new-quote {
-    border: 1px solid purple;
+    border: 2px solid rgb(99, 4, 99);
     border-radius: 5px;
-    background-color: lightgray;
+    background-color: rgb(173, 104, 219);
     box-shadow: 3px 3px;
+    margin-bottom: 2vh;
+    padding: 4px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+    font-weight: 300;
+  }
+
+  #tweet-quote {
+    font-weight: 200;
+  }
+  
+  #tweet-btn {
+    border: 2px solid rgb(99, 4, 99);
+    padding: .25vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: .5vh;
+    box-shadow: 3px 3px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 4vh;
+    margin: auto;
+    /* padding-bottom: 1vh; */
+  }
+  #foot-link {
+    color: rgb(99, 4, 99);
+    font-size: 2.75vh;
   }
